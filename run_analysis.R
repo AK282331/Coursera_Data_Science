@@ -67,16 +67,16 @@ names(Tidy_data) = gsub("-","",names(Tidy_data))
 # Creating second, independent tidy data set with the average 
 # of each variable for each activity and each subject.
 
-summarised_data = Tidy_data %>% group_by(subjects,activity) %>% summarise_all(.funs = mean)
+final_tidy_data = Tidy_data %>% group_by(subjects,activity) %>% summarise_all(.funs = mean)
 
 
 ## Save the file locally
 
 # Create a directory to store the output file.
 
-dir.create(paste0(path,"\\final_summarised_data"))
+dir.create(paste0(path,"\\tidy_data"))
 
 # Saving the file
-write.table(summarised_data,paste0(path,"\\final_summarised_data\\summaried_data.txt"),row.names = FALSE)
+write.table(summarised_data,paste0(path,"\\tidy_data\\final_tidy_data"),row.names = FALSE)
 
 
