@@ -59,7 +59,7 @@ Replaced all "-" to ""
 ## Creating second, independent tidy data set with the average of each variable for each activity and each subject.
 final_tidy_data = I have grouping the data on the basis of subjects and activities and then calculate the mean of all the variable. And store the final summarise data in this variable.
 
-##Create a directory to store the output file.
+## Create a directory to store the output file.
 Created a directory to store the final tidy data set.
 
 
