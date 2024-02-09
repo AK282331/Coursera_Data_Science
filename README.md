@@ -15,6 +15,6 @@ run.analysis.R - This is the file which contains the script for getting and clea
                 -From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity                 and each subject.
                 
 tidy_data.txt - After running the script this is the final tidy data i got.
-
+a
 
 
